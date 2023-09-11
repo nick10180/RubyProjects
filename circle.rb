@@ -4,6 +4,7 @@ class Circle
     Methods: radius, getArea, getCircumference
     Requires: Ruby::Math
     Nicholas Pullara 4:07 P.M. EST 8-29-23
+    Last edited: 2:41 P.M. EST 9-11-23
     /
     
     #The @@ is like a static variable in cpp, only one memory location is allocated for the whole class.
@@ -15,7 +16,7 @@ class Circle
     def initialize(radius = 0)
         @radius = radius
     end
-    
+
     def getArea
         @@pi * radius * radius
     end
