@@ -15,6 +15,7 @@ class Circle
     def initialize(radius = 0)
         @radius = radius
     end
+    
     def getArea
         @@pi * radius * radius
     end
@@ -23,15 +24,18 @@ class Circle
     def +(obj)
         return Circle.new(self.radius + obj.radius)
     end
+
     def getCircumference
         @@pi * 2 * radius
     end
+
     /The self.inherited method is a mystery to me some guy on stackoverflow said that this is how you stop inhertence for a single method, it broke./
     #def self.inherited(magicword)
     #    magicword.send(:define_method , getCircumference) do
     #        raise NoMethodError
     #    end
     #end
+
     def getDiameter
         2 * radius
     end
