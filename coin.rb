@@ -64,6 +64,7 @@ nickel.toss()
          end
         if input == "n\n"
             puts wins.to_s + " wins! " + losses.to_s + " losses."
+            gets
             break
         elsif input == "y\n"
             bal = 0
@@ -77,6 +78,7 @@ nickel.toss()
              end
         if input == "n\n"
             puts wins.to_s + " wins! " + losses.to_s + " losses."
+            gets
             break
         elsif input == "y\n"
             bal = 0            

@@ -68,8 +68,7 @@ puts "The circumference of a circle if you added the radius of \na second circle
 
 puts "What is the radius of another circle? : "
 
-/Demonstrate attr_writer/    end
-e
+/Demonstrate attr_writer/   
 myradius = gets.to_f
 myCircle.radius = myradius
 puts myradius.to_s
